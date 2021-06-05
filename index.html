@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Project</title>
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__inner">
+                <a class="logo" href="#">
+                    <img class="logo__link" src="images/logo.svg" alt="logo">
+                </a>
+                <nav class="menu">
+                    <button class="menu__btn"></button>
+                    <ul class="menu__list">
+                        <li class="menu__item"><a href="#" class="menu__list-link">ГЛАВНАЯ</a></li>
+                        <li class="menu__item"><a href="#" class="menu__list-link">ГАЛЕРЕЯ</a></li>
+                        <li class="menu__item"><a href="#" class="menu__list-link">ПРОЕКТЫ</a></li>
+                        <li class="menu__item"><a href="#" class="menu__list-link">СЕРТИФИКАТЫ</a></li>
+                        <li class="menu__item"><a href="#" class="menu__list-link">КОНТАКТЫ</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <section class="top">
+        <div class="container">
+            <div class="top__heading">
+                <div class="top__content">
+                    <h1 class="top__title">PROJECT <br>
+                        <span class="top__subtitle">HOME</span></h1>
+                    <img src="images/slide-numbers.svg" alt="" class="top__number">
+                </div>
+                <div class="top__slider main-carousel">
+                    <div class="top__slider-item carousel-cell">
+                        <img class="top__slider-img" src="images/building1.png" alt="">
+                    </div>
+                    <div class="top__slider-item">
+                        <img class="top__slider-img" src="images/building1.png" alt="">
+                    </div>
+                </div>
+                <a class="aplication-btn" href="#">ВЗГЛЯНУТЬ</a>
+            </div>
+        </div>
+    </section>
+    <section class="about">
+        <div class="container">
+            <div class="about__heading">
+                <div class="about__images">
+                    <img class="about__img" src="images/img-1.png" alt="">
+                    <img class="about__img" src="images/img-2.png" alt="">
+                </div>
+                <div class="about__img-middle"> <img src="images/img-3.png" alt="">
+                </div>
+                <div class="about__content">
+                    <h3 class="about__title">О компании</h3>
+                    <p class="about__content-text">Lorem Ipsum is simply dummy text of the printing and typesetting
+                        industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an
+                        unknown printer took a galley of type and scrambled it to make a type specimen book. It has
+                        survived
+                        not only five centuries, but also the leap into electronic typesetting, remaining essentially
+                        unchanged.</p>
+                    <a href="#" class="about-btn">ЧИТАТЬ</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="main">
+        <div class="container">
+            <h2 class="main__title">Основные задачи</h2>
+            <div class="main__items">
+                <div class="main__item">
+                    <div class="main__item-num">1</div>
+                    <p class="main__item-text">Создание комфортных условий и повышение качества обслуживания клиентов
+                    </p>
+                </div>
+                <div class="main__item">
+                    <div class="main__item-num">2</div>
+                    <p class="main__item-text">Постоянно совершенствовать качество предоставляемых услуг путем обучения
+                        персонала, закупки нового оборудования и усиленной рекламы на рынке</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="projects">
+        <div class="container">
+            <h5 class="main__title">Наши проекты</h5>
+            <div class="projects__inner">
+
+                <a href="#" class="projects__button">ДОСУГОВЫЙ ЦЕНТР
+                    <p class="projects__detail">ПОДРОБНЕЕ</p>
+                </a>
+
+                <a href="#"><img class="projects__img" src="images/img1.png" alt=""></a>
+                <a href="#"><img class="projects__img" src="images/img2.png" alt=""></a>
+                <a href="#"><img class="projects__img" src="images/img3.png" alt=""></a>
+                <a href="#"><img class="projects__img" src="images/img4.png" alt=""></a>
+
+            </div>
+            <div class="projects__wrap"> <a href="#" class="projects__btn">Все проекты</a></div>
+        </div>
+    </section>
+    <section class="feedback">
+        <div class="container">
+            <h4 class="feedback__title">Связаться с нами</h4>
+            <div class="feedback__inner">
+                <form class="feedback__form" action="#">
+                    <input class="feedback__input" type="text" tabindex="1" name="username" placeholder="Имя">
+                    <label for="userphone" class="required"><input class="feedback__input required" type="tel"
+                            tabindex="2" name="userphone" required placeholder="Номер телефона"></label>
+
+                    <label for="usermail" class="required"><input class="feedback__input" type="text" tabindex="3"
+                            name="usermail" required placeholder="E-mail"></label>
+                    <input class="feedback__input" type="text" tabindex="4" name="userproduct"
+                        placeholder="Интересующий товар/услуга">
+                    <label for="textarea" class="required"><textarea class="feedback__textarea" name="textarea" id=""
+                            required placeholder="Сообщение"></textarea></label>
+
+                    <p class="feedback__text">
+                        <label> <input class="feedback__checkbox" type="checkbox" checked>
+                            <span class="checkbox-style"></span></label>
+                        Отправляя заявку Вы соглашаетесь с политикой конфиденциальности
+                    </p>
+                    <button class="feedback__btn" type="submit">ОТПРАВИТЬ</button>
+                </form>
+                <img class="feedback__images" src="images/feedback.png" alt="">
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__inner">
+                <a class="footer__logo" href="#">
+                    <img class="logo__link" src="images/logo-down.svg" alt="logo">
+                </a>
+                <div class="info">
+                    <div class="footer__title">Информация</div>
+                    <ul class="info__list">
+                        <li class="info__list-item"><a href="#" class="info__list-link">Главная</a></li>
+                        <li class="info__list-item"><a href="#" class="info__list-link">Галерея</a></li>
+                        <li class="info__list-item"><a href="#" class="info__list-link">Проекты</a></li>
+                        <li class="info__list-item"><a href="#" class="info__list-link">Сертификаты</a></li>
+                        <li class="info__list-item"><a href="#" class="info__list-link">Контакты</a></li>
+                    </ul>
+                </div>
+                <div class="contact">
+                    <div class="footer__title">Контакты</div>
+                    <div class="contact__inner">
+                        <div class="contact__adress">100000, Республика Казахстан,
+                            г. Караганда, ул. Телевизионная 10</div>
+                        <a href="tel:+380000000000" class="contact__tel">+38 (000) 000 00 00</a>
+                        <div class="contact__mail">mail@gmail.com</div>
+                    </div>
+                </div>
+                <div class="social">
+                    <div class="footer__title">Социальные сети</div>
+                    <ul class="social__list">
+                        <li class="social__list-item"><a href="#" class="social__list-link">
+                                <img class="social__list-img" src="images/facebook.svg" alt="facebook"></a></li>
+                        <li class="social__list-item"><a href="#" class="social__list-link">
+                                <img class="social__list-img" src="images/twitter.svg" alt="twitter"></a></li>
+                        <li class="social__list-item"><a href="#" class="social__list-link">
+                                <img class="social__list-img" src="images/linkedin.svg" alt="linkedin"></a></li>
+                        <li class="social__list-item"><a href="#" class="social__list-link">
+                                <img class="social__list-img" src="images/pinterest.svg" alt="pinterest"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="year">
+        © <span id="current-year">2019</span> Digital Project. Все права защищены.
+    </div>
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
